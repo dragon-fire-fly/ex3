@@ -30,12 +30,43 @@
 
 #---- Task 3 ----#
 
-user_num = int(input("Please choose a number: "))
+# user_num = int(input("Please choose a number: "))
 
-for n in range (1, user_num):
-    if user_num % n == 0:
-        print(n)
+# for n in range (1, user_num):
+#     if user_num % n == 0:
+#         print(n)
     
+#--- Task 4 ---#
 
+# user_num = int(input("Please choose a number: "))
+
+# prime = True
+
+# for n in range (2, user_num):
+#     if user_num % n == 0:
+#         prime = False
+
+# if prime == True:
+#     print(f"{user_num} is a prime number")
+# else:
+#     print(f"{user_num} is not a prime number")
+
+
+#---- Task 5 ----#
+
+# for n in range (0,100):
+#     if n % 3 == 0 and n % 5 == 0:
+#         print("FizzBuzz")
+#     elif n % 5 == 0:
+#         print("Buzz")
+#     elif n % 3 == 0:
+#         print("Fizz")
+#     else:
+#         (print(n))
+    
+#---- Task 6 ----#
+for n in range (1000, 2001):
+    if n % 7 == 0 and n % 5 != 0:
+        print(n)
 
 
